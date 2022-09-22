@@ -1,0 +1,9 @@
+.width {
+    width: 350px;
+}
+
+@media all and (max-width: 767px) {
+    .width {
+        width: auto;
+    }
+}

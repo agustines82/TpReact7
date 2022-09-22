@@ -4,7 +4,9 @@ import EmpleadoRow from "./EmpleadoRow";
 const EmpleadoList = () => {
     return (
         <>
-            <EmpleadoRow />
+            <section className="container mt-1 d-flex justify-content-center">
+                <EmpleadoRow />
+            </section>
         </>
     );
 };
