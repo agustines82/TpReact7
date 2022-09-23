@@ -15,11 +15,16 @@ const EmpleadoList = () => {
     ];
 
     return (
-        <section className="container mt-1 d-flex flex-column justify-content-center align-items-center">
-            {empleados.map((persona, id) => (
-                <EmpleadoRow id={id} persona={persona} />
-            ))}
-        </section>
+        <>
+            <section className="container d-flex  justify-content-center  mt-5">
+                <h3 className="display-5">Lista de empleados</h3>
+            </section>
+            <section className="container d-flex flex-column align-items-center mb-5">
+                {empleados.map((persona, id) => (
+                    <EmpleadoRow key={id} persona={persona} />
+                ))}
+            </section>
+        </>
     );
 };
 

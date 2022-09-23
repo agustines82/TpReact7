@@ -5,12 +5,12 @@ import "./EmpleadoRow.css";
 const EmpleadoRow = ({ persona }) => {
     return (
         <ListGroupItem>
-            <section className="card mb-3 width">
-                <article className="row">
-                    <aside className="col-md-4">
+            <section className="card width">
+                <article className="d-flex">
+                    <aside>
                         <EmpleadoAvatar persona={persona} />
                     </aside>
-                    <aside className="col-md-8">
+                    <aside>
                         <div className="card-body">
                             <h5 className="card-title">{persona.nombre}</h5>
                             <p className="card-text">

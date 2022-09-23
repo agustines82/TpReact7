@@ -4,6 +4,7 @@
 
 @media all and (max-width: 767px) {
     .width {
-        width: auto;
+        width: 300px;
+        text-align: center;
     }
 }
