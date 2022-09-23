@@ -1,13 +1,9 @@
 import React from "react";
-import "./EmpleadoAvatar.css";
-const EmpleadoAvatar = () => {
+import empleado01 from "../assets/img/empleado01.jpg";
+const EmpleadoAvatar = ({ persona }) => {
     return (
         <>
-            <img
-                className="img-fluid rounded-start"
-                src="https://adjuntos.yoreparo.com/imagen_avatar/0001/01/thumb_11_imagen_avatar_medium.png"
-                alt="avatar"
-            />
+            <img className="img-fluid rounded-start" src={empleado01} alt="avatar" />
         </>
     );
 };
