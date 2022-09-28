@@ -8,7 +8,12 @@ Trabajo practico que consiste en crear una aplicación web que muestre una lista
 
 ## GitHub
 
-[Git](https://github.com/agustines82/TpReact7) :smiley_cat:
+[Git](https://github.com/agustines82/TpReact7)
+
+## Netlify
+
+Puedes ver el proyecto online
+[Netlify](https://dreamy-trifle-74706c.netlify.app/)
 
 ## autor
 
